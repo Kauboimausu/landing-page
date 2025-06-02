@@ -1,3 +1,13 @@
+
+.roboto-font> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 * {
     font-family: Roboto;
     box-sizing: border-box;
@@ -96,13 +106,14 @@ a {
 .pictures-with-info {
     display: flex;
     justify-content: space-around;
-
 }
 
 .pictures-with-info li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 200px;
+    font-size: 18px;
 }
 
 .pictures-with-info img{
